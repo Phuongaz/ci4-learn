@@ -1,0 +1,109 @@
+CRITICAL - 2021-08-06 01:56:54 --> Invalid file: card/index.php
+#0 C:\xampp\htdocs\test\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('card/index.php')
+#1 C:\xampp\htdocs\test\system\Common.php(1271): CodeIgniter\View\View->render('card/index', Array, true)
+#2 C:\xampp\htdocs\test\app\Controllers\Home.php(12): view('card/index', Array)
+#3 C:\xampp\htdocs\test\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-06 01:58:04 --> Invalid file: card.php
+#0 C:\xampp\htdocs\test\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('card.php')
+#1 C:\xampp\htdocs\test\system\Common.php(1271): CodeIgniter\View\View->render('card', Array, true)
+#2 C:\xampp\htdocs\test\app\Controllers\Home.php(12): view('card', Array)
+#3 C:\xampp\htdocs\test\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-06 02:34:50 --> Invalid file: page/homepage.php
+#0 C:\xampp\htdocs\test\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page/homepage.p...')
+#1 C:\xampp\htdocs\test\system\Common.php(1271): CodeIgniter\View\View->render('page/homepage', Array, true)
+#2 C:\xampp\htdocs\test\app\Controllers\Home.php(17): view('page/homepage', Array)
+#3 C:\xampp\htdocs\test\system\CodeIgniter.php(928): App\Controllers\Home->info()
+#4 C:\xampp\htdocs\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-06 02:35:36 --> Invalid file: page/homepage.php
+#0 C:\xampp\htdocs\test\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page/homepage.p...')
+#1 C:\xampp\htdocs\test\system\Common.php(1271): CodeIgniter\View\View->render('page/homepage', Array, true)
+#2 C:\xampp\htdocs\test\app\Controllers\Home.php(14): view('page/homepage', Array)
+#3 C:\xampp\htdocs\test\system\CodeIgniter.php(928): App\Controllers\Home->info()
+#4 C:\xampp\htdocs\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-06 02:36:08 --> Invalid file: page/homepage.php
+#0 C:\xampp\htdocs\test\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page/homepage.p...')
+#1 C:\xampp\htdocs\test\system\Common.php(1271): CodeIgniter\View\View->render('page/homepage', Array, true)
+#2 C:\xampp\htdocs\test\app\Controllers\Home.php(14): view('page/homepage', Array)
+#3 C:\xampp\htdocs\test\system\CodeIgniter.php(928): App\Controllers\Home->info()
+#4 C:\xampp\htdocs\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-06 03:04:54 --> Call to undefined method App\Controllers\Query::response()
+#0 C:\xampp\htdocs\test\system\CodeIgniter.php(928): App\Controllers\Query->qr('abc')
+#1 C:\xampp\htdocs\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Query))
+#2 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-06 03:04:58 --> Too few arguments to function App\Controllers\Query::qr(), 0 passed in C:\xampp\htdocs\test\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\test\system\CodeIgniter.php(928): App\Controllers\Query->qr()
+#1 C:\xampp\htdocs\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Query))
+#2 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-06 03:05:10 --> Too few arguments to function App\Controllers\Query::qr(), 0 passed in C:\xampp\htdocs\test\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\test\system\CodeIgniter.php(928): App\Controllers\Query->qr()
+#1 C:\xampp\htdocs\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Query))
+#2 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-06 03:05:24 --> Call to undefined method App\Controllers\Query::response()
+#0 C:\xampp\htdocs\test\system\CodeIgniter.php(928): App\Controllers\Query->qr('abc')
+#1 C:\xampp\htdocs\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Query))
+#2 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-06 03:06:57 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\test\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('Query/qr/abc')
+#1 C:\xampp\htdocs\test\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('Query/qr/abc')
+#2 C:\xampp\htdocs\test\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-06 09:40:16 --> Using $this when not in object context
+#0 C:\xampp\htdocs\test\system\CodeIgniter.php(928): App\Controllers\Query::query('sur.locm.cf', 19132)
+#1 C:\xampp\htdocs\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Query))
+#2 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-06 09:46:52 --> Declaration of App\Controllers\Query::index(string $host, int $port, int $timeout = 4) should be compatible with CodeIgniter\RESTful\ResourceController::index()
+#0 C:\xampp\htdocs\test\app\Controllers\Query.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\test\system\Router\Router.php(566): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('query/sur.locm....')
+#3 C:\xampp\htdocs\test\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('query/sur.locm....')
+#4 C:\xampp\htdocs\test\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-06 10:26:26 --> file_get_contents(https://disease.sh/v3/covid-19/countries/Vietnam): failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\test\app\Controllers\Query.php(18): file_get_contents('https://disease...')
+#2 C:\xampp\htdocs\test\system\CodeIgniter.php(928): App\Controllers\Query->covid()
+#3 C:\xampp\htdocs\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Query))
+#4 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-06 10:27:03 --> file_get_contents(https://disease.sh/v3/covid-19/countries/Vietnam): failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\test\app\Controllers\Query.php(18): file_get_contents('https://disease...')
+#2 C:\xampp\htdocs\test\system\CodeIgniter.php(928): App\Controllers\Query->covid()
+#3 C:\xampp\htdocs\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Query))
+#4 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}

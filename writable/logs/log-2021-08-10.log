@@ -1,0 +1,156 @@
+CRITICAL - 2021-08-10 07:34:47 --> syntax error, unexpected '<', expecting end of file
+#0 C:\xampp\htdocs\test\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('donate/postcard')
+#1 C:\xampp\htdocs\test\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('donate/postcard')
+#2 C:\xampp\htdocs\test\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-10 07:40:46 --> syntax error, unexpected '<', expecting end of file
+#0 C:\xampp\htdocs\test\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('donate/postcard')
+#1 C:\xampp\htdocs\test\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('donate/postcard')
+#2 C:\xampp\htdocs\test\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-10 07:41:22 --> syntax error, unexpected '<', expecting end of file
+#0 C:\xampp\htdocs\test\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('donate/postcard')
+#1 C:\xampp\htdocs\test\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('donate/postcard')
+#2 C:\xampp\htdocs\test\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-10 07:41:36 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\test\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('donate/postcard')
+#1 C:\xampp\htdocs\test\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('donate/postcard')
+#2 C:\xampp\htdocs\test\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-10 07:42:11 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\test\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('donate/postcard')
+#1 C:\xampp\htdocs\test\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('donate/postcard')
+#2 C:\xampp\htdocs\test\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-08-10 09:05:25 --> Error connecting to the database: Unknown database 'anime_l'
+CRITICAL - 2021-08-10 09:05:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'anime_l'
+#0 C:\xampp\htdocs\test\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\test\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\test\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\test\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\test\app\Controllers\anime.php(17): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\test\system\CodeIgniter.php(928): App\Controllers\anime->index()
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\anime))
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-10 09:05:38 --> Error connecting to the database: Unknown database 'anime_l'
+CRITICAL - 2021-08-10 09:05:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'anime_l'
+#0 C:\xampp\htdocs\test\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\test\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\test\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\test\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\test\app\Controllers\anime.php(17): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\test\system\CodeIgniter.php(928): App\Controllers\anime->index()
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\anime))
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-10 09:06:14 --> Table 'anime.anime' doesn't exist
+CRITICAL - 2021-08-10 09:06:14 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\test\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\test\app\Controllers\anime.php(17): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\test\system\CodeIgniter.php(928): App\Controllers\anime->index()
+#3 C:\xampp\htdocs\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\anime))
+#4 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-10 09:17:54 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\test\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('anime')
+#1 C:\xampp\htdocs\test\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('anime')
+#2 C:\xampp\htdocs\test\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-10 09:26:02 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\test\system\Common.php(1271): CodeIgniter\View\View->render('pages/anime', Array, true)
+#2 C:\xampp\htdocs\test\app\Controllers\anime.php(16): view('pages/anime', Array)
+#3 C:\xampp\htdocs\test\system\CodeIgniter.php(928): App\Controllers\anime->index()
+#4 C:\xampp\htdocs\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\anime))
+#5 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-10 09:27:30 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\test\app\Views\pages\anime.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\test\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\test\system\Common.php(1271): CodeIgniter\View\View->render('pages/anime', Array, true)
+#4 C:\xampp\htdocs\test\app\Controllers\anime.php(28): view('pages/anime', Array)
+#5 C:\xampp\htdocs\test\system\CodeIgniter.php(928): App\Controllers\anime->add()
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\anime))
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-10 09:27:56 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\test\app\Views\pages\anime.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\test\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\test\system\Common.php(1271): CodeIgniter\View\View->render('pages/anime', Array, true)
+#4 C:\xampp\htdocs\test\app\Controllers\anime.php(29): view('pages/anime', Array)
+#5 C:\xampp\htdocs\test\system\CodeIgniter.php(928): App\Controllers\anime->add()
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\anime))
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-10 09:32:10 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\test\system\Common.php(1271): CodeIgniter\View\View->render('pages/anime', Array, true)
+#2 C:\xampp\htdocs\test\app\Controllers\anime.php(17): view('pages/anime', Array)
+#3 C:\xampp\htdocs\test\system\CodeIgniter.php(928): App\Controllers\anime->index()
+#4 C:\xampp\htdocs\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\anime))
+#5 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-10 09:36:13 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\test\app\Views\pages\anime.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\test\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\test\system\Common.php(1271): CodeIgniter\View\View->render('pages/anime', Array, true)
+#4 C:\xampp\htdocs\test\app\Controllers\anime.php(28): view('pages/anime', Array)
+#5 C:\xampp\htdocs\test\system\CodeIgniter.php(928): App\Controllers\anime->add()
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\anime))
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-10 09:51:46 --> Too few arguments to function App\Controllers\anime::delete(), 1 passed in C:\xampp\htdocs\test\system\CodeIgniter.php on line 928 and exactly 2 expected
+#0 C:\xampp\htdocs\test\system\CodeIgniter.php(928): App\Controllers\anime->delete('12')
+#1 C:\xampp\htdocs\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\anime))
+#2 C:\xampp\htdocs\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\test\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-08-10 09:55:38 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-08-10 09:55:44 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-08-10 09:55:45 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-08-10 09:55:45 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-08-10 09:55:46 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-08-10 09:55:58 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-08-10 09:55:59 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-08-10 09:56:00 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-08-10 09:57:17 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-08-10 09:57:18 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-08-10 09:57:19 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-08-10 09:57:20 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-08-10 09:57:20 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-08-10 10:00:11 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-08-10 10:00:15 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-08-10 10:00:20 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-08-10 10:00:36 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-08-10 10:00:46 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-08-10 10:00:48 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-08-10 10:01:17 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-08-10 10:01:19 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-08-10 10:01:23 --> Unknown column 'id' in 'where clause'

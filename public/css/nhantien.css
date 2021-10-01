@@ -1,0 +1,24 @@
+.container {
+    position: relative;
+    z-index: 3;
+  }
+#nhan{
+  position: absolute;
+  display: inline-block;
+  -webkit-transition: all 0.1s ease-out;
+}
+.btn-abc{
+  text-align: center;
+}
+.mb-3{
+    text-align: center;
+}
+@media only screen and (max-width: 500px) {
+  #nhan{
+    position: absolute;
+    display: inline-block;
+    font-size: 14px;
+    padding: 3px;
+    -webkit-transition: all 0.1s ease-out;
+  }
+}
